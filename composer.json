@@ -1,0 +1,20 @@
+{
+    "name": "nsrosenqvist/cmb2-switch",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "description": "",
+    "homepage": "https://github.com/nsrosenqvist/cmb2-switch",
+    "autoload": {
+        "psr-4": {
+            "NSRosenqvist\\CMB2\\SwitchField\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "cmb2/cmb2": "^2.3.0"
+    }
+}
