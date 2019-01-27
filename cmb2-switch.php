@@ -18,8 +18,8 @@ if (! class_exists('CMB2_Switch')) {
             }
 
             // Include files
-            require_once __DIR__ .'/src/Integration.php';
             require_once __DIR__.'/src/helpers.php';
+            require_once __DIR__ .'/src/Integration.php';
 
             // Initalize plugin
             \NSRosenqvist\CMB2\SwitchField\Integration::init();
